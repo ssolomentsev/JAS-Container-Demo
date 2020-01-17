@@ -28,6 +28,11 @@
       {% if site.github.is_project_page %}
         <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
         <a href="wileyjasaio://?identifier=test_1">DEEEPLINK</a>
+      
+      <form action="wileyjasaio://?identifier=test_1" target="_blank">
+        <input type="submit" value="Open App" />
+    </form>
+      
       {% endif %}
       {% if site.show_downloads %}
         <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
